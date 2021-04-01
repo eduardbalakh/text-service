@@ -1,0 +1,14 @@
+server:
+  port: 9089
+
+spring:
+  application:
+    name: REST-API-TEXT-SERVICE-MYSQL
+
+eureka:
+  client:
+    service-url: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    hostname: localhost
